@@ -1,0 +1,12 @@
+@value orangeAccent: rgb(218, 112, 36);
+
+/* button face */
+@value buttonFace: whitesmoke;
+
+/* Layout box */
+@value boxBg: rgba(0,0,255,.15);
+
+/* card */
+
+@value cardBg: rgb(29, 199, 185);
+@value cardBorder: rgb(70, 70, 71);

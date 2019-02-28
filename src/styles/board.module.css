@@ -1,0 +1,6 @@
+@value colors: "./colors.module.css";
+@value orangeAccent from colors;
+
+.winnerText {
+  color: orangeAccent;
+}

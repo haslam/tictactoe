@@ -1,0 +1,19 @@
+@value colors: "./colors.module.css";
+@value orangeAccent, buttonFace from colors;
+
+.button {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: .7rem 1.4rem;
+  position: relative;
+  text-align: center;
+}
+
+.resetButton {
+  background: orangeAccent;
+  border: 0;
+  color: buttonFace;
+  composes: button;
+  margin-top: 1rem;
+}

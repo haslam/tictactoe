@@ -1,0 +1,30 @@
+@value colors: "./colors.module.css";
+@value boxBg from colors;
+
+.appTitle {
+  color: white;
+  margin: 0 0 1.6rem 0;
+  line-height: 1;
+
+}
+
+.layout {
+  align-items: center;
+  background: url('/img/1n0s.jpeg');
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+.layoutBox{
+  background: boxBg;
+  border-radius: 2.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem 3rem 3.5rem;
+  text-align: center;
+  width: 40rem;
+}
+
