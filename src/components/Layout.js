@@ -3,7 +3,7 @@ import styles from '../styles/layout.module.css';
 import Board from './Board';
 
 
-export default function Layout (props) {
+export default function Layout () {
   return (
     <div className={styles.layout}>
       <div className={styles.layoutBox}>
@@ -12,9 +12,6 @@ export default function Layout (props) {
           <Board />
         </div>
       </div>
-      <nav>
-
-      </nav>
     </div>
   )
 }

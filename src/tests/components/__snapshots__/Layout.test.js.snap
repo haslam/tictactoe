@@ -18,8 +18,88 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <div
+      "children": <div
+        className="layoutBox"
+      >
+        <div>
+          <h1
+            className="appTitle"
+          >
+            TIC TAC TOE
+          </h1>
+          <Board />
+        </div>
+      </div>,
+      "className": "layout",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <h1
+            className="appTitle"
+          >
+            TIC TAC TOE
+          </h1>
+          <Board />
+        </div>,
+        "className": "layoutBox",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="appTitle"
+            >
+              TIC TAC TOE
+            </h1>,
+            <Board />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "TIC TAC TOE",
+              "className": "appTitle",
+            },
+            "ref": null,
+            "rendered": "TIC TAC TOE",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
           className="layoutBox"
         >
           <div>
@@ -31,13 +111,10 @@ ShallowWrapper {
             <Board />
           </div>
         </div>,
-        <nav />,
-      ],
-      "className": "layout",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
+        "className": "layout",
+      },
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -95,111 +172,6 @@ ShallowWrapper {
         },
         "type": "div",
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": "nav",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="layoutBox"
-          >
-            <div>
-              <h1
-                className="appTitle"
-              >
-                TIC TAC TOE
-              </h1>
-              <Board />
-            </div>
-          </div>,
-          <nav />,
-        ],
-        "className": "layout",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div>
-              <h1
-                className="appTitle"
-              >
-                TIC TAC TOE
-              </h1>
-              <Board />
-            </div>,
-            "className": "layoutBox",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <h1
-                  className="appTitle"
-                >
-                  TIC TAC TOE
-                </h1>,
-                <Board />,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "TIC TAC TOE",
-                  "className": "appTitle",
-                },
-                "ref": null,
-                "rendered": "TIC TAC TOE",
-                "type": "h1",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {},
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-            ],
-            "type": "div",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": "nav",
-        },
-      ],
       "type": "div",
     },
   ],

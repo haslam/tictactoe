@@ -32,8 +32,12 @@ export default class Board extends React.Component {
     if(this.state.cards[index] !== null || this.gameWinner(this.state.cards)) 
       return;
 
-    const reCard = this.state.cards.slice(0); //create a new copy of the cards array so as not to mutate.
-    reCard[index] = this.state.nextPlay ? 'X' : 'O'; //set index value to X or O depending on nextPlay boolean value
+    //create a new copy of the cards array so as not to mutate.
+    const reCard = this.state.cards.slice(0);
+
+    //set index value to X or O depending on nextPlay boolean value
+    reCard[index] = this.state.nextPlay ? 'X' : 'O'; 
+
     this.setState({ 
       cards: reCard,
       nextPlay: !this.state.nextPlay, //flip and set nextPlay
