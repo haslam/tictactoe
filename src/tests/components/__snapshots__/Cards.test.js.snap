@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Card should render as expected 1`] = `
+exports[`Card should ensure component is rendered correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Cards
     cards={
       Array [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
       ]
     }
     handlePick={[MockFunction]}
@@ -37,39 +37,57 @@ ShallowWrapper {
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
         <div
           className="card"
           onClick={[Function]}
-        />,
+        >
+          X
+        </div>,
       ],
       "className": "cards",
     },
@@ -80,12 +98,12 @@ ShallowWrapper {
         "key": "0",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
       Object {
@@ -93,12 +111,12 @@ ShallowWrapper {
         "key": "1",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
       Object {
@@ -106,12 +124,12 @@ ShallowWrapper {
         "key": "2",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
       Object {
@@ -119,12 +137,12 @@ ShallowWrapper {
         "key": "3",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
       Object {
@@ -132,12 +150,12 @@ ShallowWrapper {
         "key": "4",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
       Object {
@@ -145,12 +163,12 @@ ShallowWrapper {
         "key": "5",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
       Object {
@@ -158,12 +176,12 @@ ShallowWrapper {
         "key": "6",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
       Object {
@@ -171,12 +189,12 @@ ShallowWrapper {
         "key": "7",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
       Object {
@@ -184,12 +202,12 @@ ShallowWrapper {
         "key": "8",
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": "X",
           "className": "card",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "X",
         "type": "div",
       },
     ],
@@ -205,39 +223,57 @@ ShallowWrapper {
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
           <div
             className="card"
             onClick={[Function]}
-          />,
+          >
+            X
+          </div>,
         ],
         "className": "cards",
       },
@@ -248,12 +284,12 @@ ShallowWrapper {
           "key": "0",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
         Object {
@@ -261,12 +297,12 @@ ShallowWrapper {
           "key": "1",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
         Object {
@@ -274,12 +310,12 @@ ShallowWrapper {
           "key": "2",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
         Object {
@@ -287,12 +323,12 @@ ShallowWrapper {
           "key": "3",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
         Object {
@@ -300,12 +336,12 @@ ShallowWrapper {
           "key": "4",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
         Object {
@@ -313,12 +349,12 @@ ShallowWrapper {
           "key": "5",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
         Object {
@@ -326,12 +362,12 @@ ShallowWrapper {
           "key": "6",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
         Object {
@@ -339,12 +375,12 @@ ShallowWrapper {
           "key": "7",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
         Object {
@@ -352,12 +388,12 @@ ShallowWrapper {
           "key": "8",
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": "X",
             "className": "card",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "X",
           "type": "div",
         },
       ],
