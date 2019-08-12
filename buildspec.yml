@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - echo Starting to install dependencies on `date`
+      - yarn install --silent
+      - echo Finished installing dependencies
+  pre_build:
+    commands:
+      - echo Starting jest test
+      - yarn run test
+      - echo Finished running test
+  build:
+    commands:
+      - echo Staring build
+      - yarn run build
+      - echo Finished running build
+artifacts:
+  base-directory: 'dist*'
+cache:
+  paths:
+    - 'node_modules/**/*'
