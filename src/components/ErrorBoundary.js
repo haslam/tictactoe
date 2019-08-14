@@ -1,23 +1,25 @@
-import React from 'react';
+import React from 'react'
 
 export default class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
     this.state = {
       error: null,
-      errorInfo: null,
+      errorInfo: null
     }
   }
-  componentDidCatch(error, errorInfo) {
-    //Catch error in the children components and re-render with error message
+
+  componentDidCatch (error, errorInfo) {
+    // Catch error in the children components and re-render with error message
     this.setState({
       error,
-      errorInfo,
-    }) 
+      errorInfo
+    })
   }
-  render() {
-    if(this.state.errorInfo) {
-      return(
+
+  render () {
+    if (this.state.errorInfo) {
+      return (
         <div>
           <h2>Oops! Something went wrong.</h2>
           <details style={{ whiteSpace: 'pre-wrap' }}>
@@ -26,11 +28,9 @@ export default class ErrorBoundary extends React.Component {
             {this.state.errorInfo.componentStack}
           </details>
         </div>
-        )
+      )
     }
 
     return this.props.children
-    
   }
-
 }

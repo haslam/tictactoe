@@ -1,7 +1,6 @@
-import React from 'react';
-import styles from '../styles/layout.module.css';
-import Board from './Board';
-
+import React from 'react'
+import styles from '../styles/layout.module.css'
+import Board from './Board'
 
 export default function Layout () {
   return (

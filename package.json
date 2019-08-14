@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/addon-notes": "^5.1.9",
     "enzyme-adapter-react-16": "^1.10.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
-    "react-test-renderer": "^16.8.3"
+    "react-test-renderer": "^16.8.3",
+    "styled-jsx": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,8 +35,23 @@
     "@babel/core": "^7.5.4",
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
+    "@storybook/addon-storyshots": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
-    "enzyme": "^3.9.0"
+    "enzyme": "^3.9.0",
+    "require-context.macro": "^1.0.4",
+    "standard": "^13.0.2"
+  },
+  "standard": {
+    "ignore": [
+      "/src/tests/components/__snapshots__/"
+    ],
+    "globals": [
+      "it",
+      "describe",
+      "beforeEach",
+      "expect",
+      "jest"
+    ]
   }
 }

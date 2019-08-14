@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from '../styles/card.module.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styles from '../styles/card.module.css'
 
-export default function Cards ({cards, handlePick}) {
+export default function Cards ({ cards, handlePick }) {
   return (
     <div className={styles.cards}>
       {
@@ -13,14 +13,13 @@ export default function Cards ({cards, handlePick}) {
         ))
       }
     </div>
-    
+
   )
 }
 Cards.propTypes = {
   cards: PropTypes.array.isRequired,
-  handlePick: PropTypes.func.isRequired,
+  handlePick: PropTypes.func.isRequired
 }
 Cards.defaultProps = {
-  cards: Array(9).fill(null),
+  cards: Array(9).fill(null)
 }
-
